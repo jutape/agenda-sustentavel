@@ -9,7 +9,8 @@ public class User {
 	private String email;
 	private String pswd;
 	private List<User> friends = new ArrayList<>();
-	
+	private Schedule schedule = new Schedule();
+	private UserRanking ranking = new UserRanking();
 	
 	public User(String name, String email, String pswd){
 		this.name = name;
