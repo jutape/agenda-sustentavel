@@ -19,7 +19,6 @@ public class UserRanking {
 	public void addScore(double score) {
 		this.score += score;
 		setTier();
-		
 	}
 	
 	public String getTier() {
