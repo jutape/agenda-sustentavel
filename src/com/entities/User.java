@@ -1,14 +1,13 @@
 package com.entities;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class User {
 	private String name;
 	private String img;
 	private String email;
 	private String pswd;
-	private List<User> friends = new ArrayList<>();
+	private ArrayList<User> friends = new ArrayList();
 	private Schedule schedule = new Schedule();
 	private UserRanking ranking = new UserRanking();
 	

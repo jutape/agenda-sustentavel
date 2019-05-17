@@ -1,9 +1,13 @@
 package com.entities;
 
-import java.util.Date;
-
 public abstract class Habit {
-	private String name;
-	private Date period;
-	public Status status = Status.waiting;
+	protected String name;
+	protected Status status = Status.waiting;
+	protected int frequency;
+	
+	public abstract int getPoints();
+	
+	public void setFrequency(int frequency) {
+		this.frequency = frequency;
+	}
 }
