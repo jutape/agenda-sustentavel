@@ -2,7 +2,7 @@ package com.entities;
 
 public abstract class Habit {
 	protected String name;
-	protected Status status = Status.waiting;
+	protected Status status = Status.Waiting;
 	protected int frequency;
 	
 	public abstract int getPoints();

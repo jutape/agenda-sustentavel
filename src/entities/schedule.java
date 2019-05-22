@@ -9,7 +9,7 @@ public class Schedule {
 	
 	
 	public void setPeriod(Date period) {
-		ClearSchedule();
+		clearSchedule();
 		this.period = period;
 	}
 	
@@ -21,7 +21,7 @@ public class Schedule {
 		this.atividades.remove(atividade);
 	}
 	
-	private void ClearSchedule() {
+	private void clearSchedule() {
 		this.period = null;
 		this.atividades.clear();
 	}

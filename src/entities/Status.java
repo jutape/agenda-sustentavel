@@ -1,5 +1,5 @@
 package com.entities;
 
 public enum Status {
-	isDone, inProgess, waiting;
+	IsDone, InProgess, Waiting , Dismiss;
 }
